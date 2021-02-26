@@ -1,0 +1,25 @@
+- Fichier à modifier : uniquement linkChecker.js
+- Principe du TP :
+    Une url est passée à linkChecker.testLink
+    linkChecker.getContentUrl accède à l'url et récupère le html
+    linkChecker.extractUrlFromHtml accède au html et extrait les liens
+- Objectif : 
+    1 - testTP1.js -> testLinks 
+        Tester que les liens extraits de chaque url sont accessibles
+    2 - testTP1.js -> testExempleCours
+        Tester que les liens extraits de l'url sont soit accessibles, soit non accessibles soit ne sont pas http
+    3 - testTP1.js ->  testUrlMalFormee
+        Tester si l'url fournie est bien formée, renvoyer une erreur avec message "Url Mal Formée" via la callback "callbackError" 
+    4 - testTP1.js ->  testNonHttpUrl
+        Tester si l'url fournie est http, renvoyer une erreur avec message "Url Mal Formée" via la callback "callbackError" 
+    5 - testTP1.js ->  testErreursHttp
+        Tester le status code de l'url fournie, renvoyer une erreur avec message "erreur HTTP <satus code>" via la callback "callbackError" 
+ 
+--- Informations : 
+--- Groupes de deux autorisés
+--- 1h00 pour le faire
+--- <100 lignes de code JS dans le fichier linkChecker.js (non obligatoire)
+--- 10 Pts pour le respect des consignes (Pas de copier / coller entre groupes)
+--- 5 Pts pour les explications du code en commentaires
+--- 5 Pts pour la lisibilité du code
+--- Envoyer le tout pour Dimanche 07 mars 23H59 maximum via github ou gitlab sur adam.affou@gmail.com
